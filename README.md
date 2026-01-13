@@ -28,16 +28,26 @@ Hệ thống phục vụ cho mục đích học tập / đồ án môn học, m�
 ---
 ## Cấu trúc thư mục
 Bus_Driver_Management_System/
-├── backend/ # Spring Boot Backend
-│ ├── controller
-│ ├── service
-│ ├── repository
-│ ├── model
-│ └── security
+├── backend/                # Spring Boot Backend
+│   ├── src/main/java/
+│   │   └── com/busdriver/
+│   │       ├── controller/ # REST Controllers
+│   │       ├── service/    # Business logic
+│   │       ├── repository/ # JPA Repositories
+│   │       ├── model/      # Entity & DTO
+│   │       └── security/   # JWT, Security config
+│   ├── src/main/resources/
+│   │   ├── application.properties
+│   │   ├── application-dev.properties
+│   │   └── application-prod.properties
+│   └── pom.xml
 │
-├── frontend/ # Giao diện người dùng
+├── frontend/               # Giao diện người dùng
+│   ├── src/
+│   └── package.json
 │
-├── database/ # Script SQL, thiết kế CSDL
+├── database/               # Script SQL & thiết kế CSDL
+│   └── bus_driver_db.sql
 │
 ├── .gitignore
 └── README.md
