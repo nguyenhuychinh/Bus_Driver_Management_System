@@ -1,0 +1,72 @@
+:root {
+  /* Colors - Background */
+  --bg: #f6f8fc;
+  --panel: #ffffff;
+  --text: #1a202c;
+  --muted: #718096;
+  --border: #e2e8f0;
+
+  /* Colors - Primary */
+  --primary: #4f46e5;
+  --primary-contrast: #ffffff;
+  --primary-hover: #4338ca;
+  --primary-light: #eef2ff;
+
+  /* Colors - Danger */
+  --danger: #ef4444;
+  --danger-contrast: #ffffff;
+  --danger-hover: #dc2626;
+  --danger-light: #fee2e2;
+
+  /* Colors - Success */
+  --success: #10b981;
+  --success-contrast: #ffffff;
+  --success-light: #d1fae5;
+
+  /* Colors - Warning */
+  --warning: #f59e0b;
+  --warning-contrast: #ffffff;
+  --warning-light: #fef3c7;
+
+  /* Border & Shadow */
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  /* Spacing */
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 16px;
+  --spacing-4: 24px;
+  --spacing-5: 32px;
+  --spacing-6: 48px;
+
+  /* Fonts */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+
+  /* Typography */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+
+  /* Focus */
+  --focus: #4f46e5;
+  --focus-ring: 0 0 0 3px rgba(79, 70, 229, 0.1);
+
+  /* Container */
+  --container-max-width: 1200px;
+
+  /* Dark Sidebar */
+  --sidebar-bg: #1e293b;
+  --sidebar-text: #e2e8f0;
+  --sidebar-hover: #334155;
+  --sidebar-active: #3b82f6;
+  --sidebar-border: #334155;
+}
